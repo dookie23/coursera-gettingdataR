@@ -36,6 +36,7 @@ colnames(ds_mean_std) <- c("activity_name",colnames_aux)
 colnames(ds_mean_std) <- c("activity_name",as.vector(features$V2[column_indexes]))
 
 # 5. From the data set in step 4, creates a second, independent tidy data set with the average of each variable for each activity and each subject.
+############ Incomplete ###################
 train_subjects <- read.table("/Users/dookie/Documents/data/UCIHARDataset/train/y_train.txt")
 test_subjects <- read.table("/Users/dookie/Documents/data/UCIHARDataset/test/y_test.txt")
 total_subjects <- rbind(train_subjects,test_subjects)
